@@ -189,10 +189,19 @@ html {
 body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
-    font-family: "Open Sans", sans-serif;
-    color: #777;
+    font-family: "Volte", sans-serif;
+    color: #3f3f3f;
 }
 
+/* sekundäre Schriftart einfügen
+––––––––––––––––––––––––––––––––––––––––––––––––––
+.secondary {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: "Didot", serif;
+    color: #777;
+}
+*/
 .smol-cnd {
     font-family: "IBM Plex Sans Condensed", monospace;
     font-size: 0.8em;
