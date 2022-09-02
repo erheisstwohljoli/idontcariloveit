@@ -14,16 +14,22 @@ body {
 /* NavBar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-nav li {
+.nav {
+    padding: 1rem;
+
+    mix-blend-mode: revert;
+}
+
+.nav li {
     display: inline-block;
     padding-right: 1.3rem;
 }
 
-nav li a {
+.nav li a {
     text-decoration: underline;
     color: #3f3f3f;
 }
 
-nav li a:hover {
+.nav li a:hover {
     color: darkred;
 }
