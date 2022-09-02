@@ -1,19 +1,5 @@
 import {BarChartRace} from "./BarChartRace.js";
 
-//sticky stuff
-window.onscroll = function() {makeSticky()};
-
-let header = document.getElementById("stickyHeader");
-let sticky  = header.offsetTop;
-
-function makeSticky() {
-    if(window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else{
-        header.classList.remove("sticky");
-    }
-}
-
 /**
  * BAR CHART RACE
  */
