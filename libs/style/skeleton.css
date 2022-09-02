@@ -190,7 +190,7 @@ body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-family: "Volte", sans-serif;
-    color: #3f3f3f;
+    color: #737373;
 }
 
 /* sekundäre Schriftart einfügen

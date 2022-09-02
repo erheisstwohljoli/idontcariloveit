@@ -2,6 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
     text-transform: uppercase;
+    background: #0c0c0c;
 }
 
 /* sekundäre Schriftart einfügen
@@ -14,22 +15,23 @@ body {
 /* NavBar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.nav {
-    padding: 1rem;
-
-    mix-blend-mode: revert;
-}
-
 .nav li {
     display: inline-block;
     padding-right: 1.3rem;
 }
 
-.nav li a {
+.nav li a{
     text-decoration: underline;
-    color: #3f3f3f;
+    color: #737373;
 }
 
 .nav li a:hover {
-    color: darkred;
+    color: whitesmoke;
+}
+
+/* NavBar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.longImg {
+    max-width: 100%;
 }
