@@ -16,7 +16,9 @@
 
   <!-- Scripts -->
   <script defer src="./libs/d3/d3.v7.min.js" type="text/javascript" charset="utf-8"></script>
-  <script defer src="myScript.js" type="text/javascript" charset="utf-8"></script>
+  <script defer src="myScript.js" type="module"></script>
+  <script src="./BarChartRace.js" type="module"></script>
+  <script src="./dataGenerator.js" type="module"></script>
 
 
 
@@ -26,7 +28,7 @@
 <!-- NavBar
  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
-  <div class="row">
+  <div class="row header" id="stickyHeader">
     <div class="six columns">
       left navbar title<br>
       <ul class="navLis nav">
@@ -36,11 +38,11 @@
         <li><a href="#opnv">busses</a></li>
         <li><a href="#bikes">bikes</a></li>
       </ul></div>
-    <div class="three columns nav">
+    <div class="three columns nav" id="middleNavbar">
       middle <span class="altText">navbar</span> title<br>
       two columns
     </div>
-    <div class="three columns nav">
+    <div class="three columns nav" id="leftNavbar">
       half right navbar title<br>
       three columns
     </div>
@@ -53,9 +55,26 @@
     <div class="one-half column">
       <h1>I don't <span class="altText">car</span> I <span class="altText">love</span> it</h1>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias, aliquam deleniti dignissimos dolores enim et exercitationem facere in magni, maxime molestias nihil nisi nobis nulla, obcaecati officia omnis quasi quia quibusdam quisquam quo reiciendis sequi similique tempora voluptatem voluptates! Architecto, consectetur debitis dicta eos eum fuga illo iusto, labore nisi, non repellat vitae? At esse excepturi explicabo fuga illo ipsa maxime modi possimus repellat sequi! Accusamus ad, aliquam aperiam architecto beatae consectetur culpa dignissimos enim minus molestiae nam numquam, quidem quos repellendus reprehenderit repudiandae voluptate? Assumenda consequatur doloribus, ipsa ipsum, itaque maxime molestiae, nesciunt non provident quas quia quod.
-    </div><div class="one-half column"><img src="images/car_07.jpg" class="longImg"></div>
+      <button>Stop</button>
+      <svg id="bar-chart-race">
+        <g class="chart-container">
+          <text class="chart-title"></text>
+          <g class="x-axis"></g>
+          <g class="y-axis"></g>
+          <g class="columns"></g>
+          <text class="current-date"></text>
+        </g>
+      </svg>
+    </div>
+    <div class="one-half column"><img src="images/car_07.jpg" class="longImg"></div>
+  </div>
+
+  <div class="row">
+
   </div>
 </div>
+
+
 
 <div class="container cars" id="cars">
   <div class="row">
