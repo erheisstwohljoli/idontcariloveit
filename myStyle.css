@@ -29,22 +29,17 @@ body {
     color: whitesmoke;
 }
 
-.header{
-    background: #0c0c0c;
-    z-index: 99;
-}
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 /* NavBar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .longImg {
     max-width: 100%;
+    padding: 1rem;
+}
+
+.gif {
+    max-width: 100%;
+    padding: 1rem;
 }
 
 /* Bar Chart Race
