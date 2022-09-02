@@ -8,13 +8,12 @@ body {
 /* sekundäre Schriftart einfügen
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .altText {
-    font-size: 1.0em;
+    font-size: 1em;
     font-family: "Didot", serif;
 }
 
 /* NavBar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .nav li {
     display: inline-block;
     padding-right: 1.3rem;
@@ -29,7 +28,7 @@ body {
     color: whitesmoke;
 }
 
-/* NavBar
+/* Pics
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .longImg {
@@ -42,15 +41,17 @@ body {
     padding: 1rem;
 }
 
+/* Einzeiler
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
 /* Bar Chart Race
----------------------------------------------------
- */
+--------------------------------------------------- */
 .chart-container .chart-title {
     font-size: 18px;
     fill: #d3d3d3;
     font-weight: bold;
     text-anchor: middle;
-    dominant-baseline: center;
 }
 
 .chart-container .current-date {

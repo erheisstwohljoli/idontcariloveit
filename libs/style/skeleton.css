@@ -528,6 +528,26 @@ form {
 .u-pull-left {
     float: left;
 }
+/* Type */
+.u-text-center {
+    text-align: center !important; }
+
+.u-text-right {
+    text-align: right !important; }
+
+/* Peek a boo */
+.u-hide {
+    display: none !important; }
+
+.u-show {
+    display: block !important; }
+
+.u-invisible {
+    visibility: hidden !important; }
+
+.u-visible {
+    visibility: visible !important; }
+
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
