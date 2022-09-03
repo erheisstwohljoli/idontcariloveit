@@ -83,6 +83,11 @@ body {
     display: none;
 }
 
+/* Donut Chart
+--------------------------------------------------- */
+#canvas1 {
+    margin: 150px auto;
+}
 .point:hover {
     cursor: default;
 }
