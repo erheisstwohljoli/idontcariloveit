@@ -2,13 +2,13 @@
 
 export function BarChartRace(chartId, extendedSettings) {
     const chartSettings = {
-        width: 800,
-        height: 1100,
-        padding: 100,
+        width: 700,
+        height: 900,
+        padding: 130,
         titlePadding: 20,
-        columnPadding: 0.4,
-        ticksInXAxis: 5,
-        duration: 500,
+        columnPadding: 0.2,
+        ticksInXAxis: 7,
+        duration: 450,
         ...extendedSettings
     };
 

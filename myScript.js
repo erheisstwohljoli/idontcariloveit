@@ -140,7 +140,7 @@ d3.csv("/data/KFZHerstellaa.csv").then(function(data) {
     console.log(dataSets)
 
     myChart
-        .setTitle("Bar Chart Race Title")
+        .setTitle("Marken über die Zeit")
         .addDatasets(dataSets)
         .render();
 });
