@@ -14,6 +14,9 @@ body {
 
 /* NavBar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.nav {
+    padding-top: 2rem;
+}
 
 /* Pics
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -30,6 +33,10 @@ body {
 
 /* Einzeiler
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.slide {
+    position: relative;
+}
+
 
 /* Bar Chart Race
 --------------------------------------------------- */
@@ -76,3 +83,21 @@ body {
     display: none;
 }
 
+.point:hover {
+    cursor: default;
+}
+.point:hover .slide{
+    left: 2rem;
+}
+
+.zwPic {
+    display: none;
+}
+
+.point:hover .zwPic{
+    display: inline;
+}
+
+.footer {
+    padding-top: 6rem;
+}

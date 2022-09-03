@@ -156,13 +156,5 @@ d3.select("button").on("click", function() {
         this.innerHTML = "Stop";
         myChart.render();
     }
-});
-
-
-
-
-
-
-
-
+})
 
